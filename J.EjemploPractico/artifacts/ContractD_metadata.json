@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newFee_",
+						"type": "uint256"
+					}
+				],
+				"name": "setFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/J.EjemploPractico/ContractD.sol": "ContractD"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/J.EjemploPractico/ContractD.sol": {
+			"keccak256": "0xb9921417b64b111c3df2966f3b812b60409f17f3ca89db243637da7adb369afe",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://47d7cdd1ad0bb71afa380f70c8d55ce9218b67d96fb69e0819fd4bb39b510552",
+				"dweb:/ipfs/QmepJMqQim9vnGxaPjjDtr6kgiRMKhb8uJ4eavVkv1yccX"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "contractA_",
+						"type": "address"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount_",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Bloque 4 Remix/J.EjemploPractico/ContractC.sol": "ContractC"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Bloque 4 Remix/J.EjemploPractico/ContractC.sol": {
+			"keccak256": "0x9fbaf6c24940fd134d423fd01ffb42f819b0821c0fb0e2c0ffc229d8408066de",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://790152b991118a26c0c9cdcdbe5789f9cf9270e3dd30c3c7d12e00fd51bcaf04",
+				"dweb:/ipfs/QmeEHkmsxuttiGGvTnaj3tbz4yFe1BJKo6DrxwLbg3UVcQ"
+			]
+		}
+	},
+	"version": 1
+}

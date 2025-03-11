@@ -1,0 +1,210 @@
+{
+	"id": "5779cc2ca1eaa931ffedfad47c607234",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Bloque 4 Remix/J.EjemploPractico/interfaces/IFee.sol": {
+				"content": "//SPDX-License-Identifier: LGPL-3.0-only\r\n\r\n//Version\r\npragma solidity ^0.8.24;\r\n\r\n//interfaz\r\ninterface IFee{\r\n    function setFee(uint256 newFee_) external;\r\n        \r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"contracts": {
+			"Bloque 4 Remix/J.EjemploPractico/interfaces/IFee.sol": {
+				"IFee": {
+					"abi": [
+						{
+							"inputs": [
+								{
+									"internalType": "uint256",
+									"name": "newFee_",
+									"type": "uint256"
+								}
+							],
+							"name": "setFee",
+							"outputs": [],
+							"stateMutability": "nonpayable",
+							"type": "function"
+						}
+					],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"gasEstimates": null,
+						"legacyAssembly": null,
+						"methodIdentifiers": {
+							"setFee(uint256)": "69fe0e2d"
+						}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"newFee_\",\"type\":\"uint256\"}],\"name\":\"setFee\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Bloque 4 Remix/J.EjemploPractico/interfaces/IFee.sol\":\"IFee\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"Bloque 4 Remix/J.EjemploPractico/interfaces/IFee.sol\":{\"keccak256\":\"0x0419de36c33f4f19edf7c2693513e1397d4dd2592c7413af77577465455ef043\",\"license\":\"LGPL-3.0-only\",\"urls\":[\"bzz-raw://2dc0b8288d38a20ae3d1642bc2ca1800dec26b2e36751ac46647add5c958e075\",\"dweb:/ipfs/Qma46pP3aCDBB1bHfYLYUpdL4N827i8Eva4ZBkgGo6qks6\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"Bloque 4 Remix/J.EjemploPractico/interfaces/IFee.sol": {
+				"ast": {
+					"absolutePath": "Bloque 4 Remix/J.EjemploPractico/interfaces/IFee.sol",
+					"exportedSymbols": {
+						"IFee": [
+							7
+						]
+					},
+					"id": 8,
+					"license": "LGPL-3.0-only",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".24"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "55:24:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "IFee",
+							"contractDependencies": [],
+							"contractKind": "interface",
+							"fullyImplemented": false,
+							"id": 7,
+							"linearizedBaseContracts": [
+								7
+							],
+							"name": "IFee",
+							"nameLocation": "105:4:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"functionSelector": "69fe0e2d",
+									"id": 6,
+									"implemented": false,
+									"kind": "function",
+									"modifiers": [],
+									"name": "setFee",
+									"nameLocation": "125:6:0",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 4,
+										"nodeType": "ParameterList",
+										"parameters": [
+											{
+												"constant": false,
+												"id": 3,
+												"mutability": "mutable",
+												"name": "newFee_",
+												"nameLocation": "140:7:0",
+												"nodeType": "VariableDeclaration",
+												"scope": 6,
+												"src": "132:15:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_uint256",
+													"typeString": "uint256"
+												},
+												"typeName": {
+													"id": 2,
+													"name": "uint256",
+													"nodeType": "ElementaryTypeName",
+													"src": "132:7:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_uint256",
+														"typeString": "uint256"
+													}
+												},
+												"visibility": "internal"
+											}
+										],
+										"src": "131:17:0"
+									},
+									"returnParameters": {
+										"id": 5,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "157:0:0"
+									},
+									"scope": 7,
+									"src": "116:42:0",
+									"stateMutability": "nonpayable",
+									"virtual": false,
+									"visibility": "external"
+								}
+							],
+							"scope": 8,
+							"src": "95:76:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "55:116:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
